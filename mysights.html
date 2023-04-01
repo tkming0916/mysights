@@ -1,0 +1,319 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="mysights.css" />
+    <script type="text/javascript" src="mytabs.js">//</script>
+    <script type="text/javascript" src="function.js">//</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
+    <title>和歌山市の観光名所</title>
+</head>
+<body>
+    <label for="mode" id="toggle" class="fa fa-bars">
+        <input type="checkbox" id="mode" onchange="toggleMenu()"/>
+    </label>
+    <div class="header" id="headmenu">
+        <h1>和歌山市の観光名所</h1>
+        <div class="jumpmenu">
+            <ol>
+                <li>
+                    <a href="#history" onclick="changeCategory('cat_history')" onkeypress="changeCategory('cat_history')">歴史</a>
+                </li>
+                <li>
+                    <a href="#park" onclick="changeCategory('cat_park')" onkeypress="changeCategory('cat_park')">レジャー</a>
+                </li>
+                <li>
+                    <a href="#museum" onclick="changeCategory('cat_museum')" onkeypress="changeCategory('cat_museum')">博物館</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="contents">
+        <div class="mysights">
+            <div class="category" id="cat_history">
+                <h2>
+                    <a id="history">歴史</a>
+                </h2>
+                <ol style="list-style:none">
+                    <li>
+                        <a href="#history" onclick="changeCategory('cat_history')" onkeypress="changeCategory('cat_history')">本文へ移動</a>
+                    </li>
+                </ol>
+
+                <ul>
+                    <li>
+                        <img src="src_11226212.jpg" alt="和歌山城の画像" />
+                        <table border="1">
+                            <tr>
+                                <th>名称</th>
+                                <td>和歌山城</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>和歌山県和歌山市一番丁３</td>
+                            </tr>
+                            <tr>
+                                <th>TEL</th>
+                                <td>073-422-8979</td>
+                            </tr>
+                            <tr>
+                                <th>説明</th>
+                                <td>和歌山市のシンボル和歌山城です。紀州徳川家のお城です。</td>
+                            </tr>
+                            <tr>
+                                <th>Webサイト</th>
+                                <td><a href="http://wakayamajo.jp/index.html">和歌山城webサイト</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="25516050854.jpg" alt="淡嶋神社の画像" />
+                        <table border="1">
+                            <tr>
+                                <th>名称</th>
+                                <td>淡嶋神社</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>和歌山県和歌山市加太１１８</td>
+                            </tr>
+                            <tr>
+                                <th>TEL</th>
+                                <td>073-459-0043</td>
+                            </tr>
+                            <tr>
+                                <th>説明</th>
+                                <td>雛流しで有名な淡嶋神社。たくさんの人形がずらりとならんでいて神秘的な空間です。</td>
+                            </tr>
+                            <tr>
+                                <th>Webサイト</th>
+                                <td><a href="http://www.kada.jp/awashima/">淡嶋webサイト</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="tomogashima.jpeg" alt="友ヶ島の画像" />
+                        <table border="1">
+                            <tr>
+                                <th>名称</th>
+                                <td>友ヶ島</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>和歌山県和歌山市</td>
+                            </tr>
+                            <tr>
+                                <th>TEL</th>
+                                <td>073-425-1234</td>
+                            </tr>
+                            <tr>
+                                <th>説明</th>
+                                <td>明治時代から第二次世界大戦まで、軍事要塞として使用されていました。砲台跡などがあります。</td>
+                            </tr>
+                            <tr>
+                                <th>Webサイト</th>
+                                <td><a href="http://www.wakayamakanko.com/sightseeing/nature2.html">友ヶ島webサイト</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <p>
+                    背景の色変更ボタン→
+                    <input type="button" value="黒色に変更する" onclick="changeColor('#000000');" onkeypress="changeColor('#000000');">
+                    <input type="button" value="水色に変更する" onclick="changeColor('#66FFFF');" onkeypress="changeColor('#66FFFF');">
+                    <input type="button" value="黄色に変更する" onclick="changeColor('#FFFF99');" onkeypress="changeColor('#FFFF99');">
+                    <input type="button" value="ピンク色に変更する" onclick="changeColor('#FFDDFF');" onkeypress="changeColor('#FFDDFF');">
+                    <input type="button" value="元の色に戻す" onclick="changeColor('#CCFFCC');" onkeypress="changeColor('#CCFFCC');">
+                </p>
+            </div>
+            <div class="category hidden" id="cat_park">
+
+                <h2>
+                    <a id="park">レジャー</a>
+                </h2>
+                <ol style="list-style:none">
+                    <li>
+                        <a href="#park" onclick="changeCategory('cat_park')" onkeypress="changeCategory('cat_park')">本文へ移動</a>
+                    </li>
+                </ol>
+
+                <ul>
+                    <li>
+                        <img src="unnamed.jpg" alt="和歌山マリーナシティの画像" />
+                        <table border="1">
+                            <tr>
+                                <th>名称</th>
+                                <td>和歌山マリーナシティ</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>和歌山県和歌山市毛見１５２７</td>
+                            </tr>
+                            <tr>
+                                <th>TEL</th>
+                                <td>0570-064-358</td>
+                            </tr>
+                            <tr>
+                                <th>説明</th>
+                                <td>地中海をイメージしたテーマパーク。インスタ映え間違えなし！</td>
+                            </tr>
+                            <tr>
+                                <th>Webサイト</th>
+                                <td><a href="http://www.marinacity.com/">マリーナシティwebサイト</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="article_art002369_42.jpg" alt="和歌山城公園の画像" />
+                        <table border="1">
+                            <tr>
+                                <th>名称</th>
+                                <td>和歌山城公園動物園</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>和歌山県和歌山市一番丁３</td>
+                            </tr>
+                            <tr>
+                                <th>TEL</th>
+                                <td>073-424-8635</td>
+                            </tr>
+                            <tr>
+                                <th>説明</th>
+                                <td>和歌山城の横にある動物園です。動物がたくさんいます。</td>
+                            </tr>
+                            <tr>
+                                <th>Webサイト</th>
+                                <td><a href="http://wakayamajo.jp/animal/index.html">和歌山城公園動物園webサイト</a></td>
+                            </tr>
+                        </table>
+
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="main-95.jpg" alt="四季の郷公園の画像" />
+                        <table border="1">
+                            <tr>
+                                <th>名称</th>
+                                <td>四季の郷公園</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>和歌山県和歌山市明王寺85</td>
+                            </tr>
+                            <tr>
+                                <th>TEL</th>
+                                <td>073-478-0070</td>
+                            </tr>
+                            <tr>
+                                <th>説明</th>
+                                <td>晴れの日は大人から子供まで楽しめる、とてもひろい自然豊かな公園です。</td>
+                            </tr>
+                            <tr>
+                                <th>Webサイト</th>
+                                <td><a
+                                        href="http://www.city.wakayama.wakayama.jp/shisetsu/kouen_sp_shisetsu/1006085/1003228/index.html">四季の郷公園webサイト</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <p>
+                    背景の色変更ボタン→
+                    <input type="button" value="黒色に変更する" onclick="changeColor('#000000');" onkeypress="changeColor('#000000');">
+                    <input type="button" value="水色に変更する" onclick="changeColor('#66FFFF');" onkeypress="changeColor('#66FFFF');">
+                    <input type="button" value="黄色に変更する" onclick="changeColor('#FFFF99');" onkeypress="changeColor('#FFFF99');">
+                    <input type="button" value="ピンク色に変更する" onclick="changeColor('#FFDDFF');" onkeypress="changeColor('#FFDDFF');">
+                    <input type="button" value="元の色に戻す" onclick="changeColor('#CCFFCC');" onkeypress="changeColor('#CCFFCC');">
+                </p>
+            </div>
+            <div class="category hidden" id="cat_museum">
+                <h2>
+                    <a id="museum">博物館</a>
+                </h2>
+                <ol style="list-style:none">
+                    <li>
+                        <a href="#museum" onclick="changeCategory('cat_museum')" onkeypress="changeCategory('cat_museum')">本文へ移動</a>
+                    </li>
+                </ol>
+                
+                
+                <ul>
+                    <li>
+                        <img src="f53c208b6471b1bcf2f36da2a04aed64.jpg" alt="和歌山県立近代美術館の画像" />
+                        <table border="1">
+                            <tr>
+                                <th>名称</th>
+                                <td>和歌山県立近代美術館</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>和歌山県和歌山市吹上1-4-14</td>
+                            </tr>
+                            <tr>
+                                <th>TEL</th>
+                                <td>073-436-8690</td>
+                            </tr>
+                            <tr>
+                                <th>説明</th>
+                                <td>郷土ゆかりのある作家の作品を含め、9000点の作品を所蔵しています。</td>
+                            </tr>
+                            <tr>
+                                <th>Webサイト</th>
+                                <td><a href="http://www.momaw.jp/">和歌山県立近代美術館webサイト</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <img src="20190501-WakayamaPrefMuseum_2.jpg" alt="和歌山県立博物館の画像" />
+                        <table border="1">
+                            <tr>
+                                <th>名称</th>
+                                <td> 和歌山県立博物館</td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>和歌山県和歌山市吹上1-4-14</td>
+                            </tr>
+                            <tr>
+                                <th>TEL</th>
+                                <td>073-436-8670</td>
+                            </tr>
+                            <tr>
+                                <th>説明</th>
+                                <td>和歌山県ゆかりの文化財及び博物館資料を、収集・保管・調査・展示しています。</td>
+                            </tr>
+                            <tr>
+                                <th>Webサイト</th>
+                                <td><a href="http://www.momaw.jp/">和歌山県立博物館webサイト</a></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+                <p>
+                    背景の色変更ボタン→
+                    <input type="button" value="黒色に変更する" onclick="changeColor('#000000');" onkeypress="changeColor('#000000');">
+                    <input type="button" value="水色に変更する" onclick="changeColor('#66FFFF');" onkeypress="changeColor('#66FFFF');">
+                    <input type="button" value="黄色に変更する" onclick="changeColor('#FFFF99');" onkeypress="changeColor('#FFFF99');">
+                    <input type="button" value="ピンク色に変更する" onclick="changeColor('#FFDDFF');" onkeypress="changeColor('#FFDDFF');">
+                    <input type="button" value="元の色に戻す" onclick="changeColor('#CCFFCC');" onkeypress="changeColor('#CCFFCC');">
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
